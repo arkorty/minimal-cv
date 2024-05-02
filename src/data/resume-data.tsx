@@ -42,17 +42,6 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Shubhalakshmi Enterprises",
-      link: "",
-      badges: ["Part-time"],
-      title: "Operations Specialist",
-      logo: "",
-      start: "2019",
-      end: "Present",
-      description:
-        "Performed diverse roles within a government contracting firm, specializing in administrative, and technical functions. Responsibilities included generating invoices, overseeing inventory, coordinating logistics, and executing various technology-driven operations crucial to business efficiency.",
-    },
-    {
       company: "Custom PC Integrator",
       link: "",
       badges: ["Self-Employed"],
@@ -74,9 +63,9 @@ export const RESUME_DATA = {
     "Google Cloud",
     "Docker",
   ],
-  languages: ["Rust", "C", "C++", "Java", "Python", "Bash"],
+  languages: ["Rust", "C", "C++", "Java", "Python", "Bash", "Golang"],
   projects: [
-    {
+  {
       title: "Neolite",
       techStack: ["Neovim", "Lua", "Shell", "IDE"],
       description:
@@ -87,6 +76,29 @@ export const RESUME_DATA = {
         href: "https://github.com/arkorty/neolite",
       },
     },
+    {
+      title: "RUSTCM-CLI",
+      techStack: ["Rust", "XChaCha20", "Poly1305", "XChaCha20-Poly1305"],
+      description:
+        "Encryption or decryption of UTF-8 encoded text files using the XChaCha20-Poly1305 authenticated cipher.",
+      logo: "",
+      link: {
+        label: "",
+        href: "https://github.com/arkorty/rustcm-cli",
+      },
+    },
+    {
+      title: "Online Clipboard",
+      techStack: ["Golang", "Javascript", "CSS", "HTML", "PostgreSQL", "Docker", "Docker Compose", "Next.js", "MUI/Material", "Tailwind CSS"],
+      description:
+        "An Online Clipboard that can be used from everywhere.",
+      logo: "",
+      link: {
+        label: "",
+        href: "https://github.com/arkorty/online-clipboard",
+      },
+    },
+
     {
       title: "PostOxideDB",
       techStack: ["Rust", "Docker", "Next.js", "React.js", "Tailwind CSS"],
@@ -99,7 +111,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Arithmetic AST",
-      techStack: ["C++"],
+      techStack: ["C++", "OOP"],
       description:
         "Simple mathematical expression evaluator using an Abstract Syntax Tree following Objected-oriented paradaigm.",
       logo: "",
@@ -110,7 +122,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Home Directory",
-      techStack: ["Next.js", "React.js", "Tailwind CSS", "DNS", "SSL", "IPv4"],
+      techStack: ["Next.js", "React.js", "Tailwind CSS"],
       description: "Personalized website made using Next.js.",
       logo: "",
       link: {
