@@ -1,3 +1,4 @@
+import {} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -65,7 +66,7 @@ export const RESUME_DATA = {
   ],
   languages: ["Rust", "C", "C++", "Java", "Python", "Bash", "Golang"],
   projects: [
-  {
+    {
       title: "Neolite",
       techStack: ["Neovim", "Lua", "Shell", "IDE"],
       description:
@@ -89,16 +90,25 @@ export const RESUME_DATA = {
     },
     {
       title: "Online Clipboard",
-      techStack: ["Golang", "Javascript", "CSS", "HTML", "PostgreSQL", "Docker", "Docker Compose", "Next.js", "MUI/Material", "Tailwind CSS"],
-      description:
-        "An Online Clipboard that can be used from everywhere.",
+      techStack: [
+        "Golang",
+        "Javascript",
+        "CSS",
+        "HTML",
+        "PostgreSQL",
+        "Docker",
+        "Docker Compose",
+        "Next.js",
+        "MUI/Material",
+        "Tailwind CSS",
+      ],
+      description: "An Online Clipboard that can be used from everywhere.",
       logo: "",
       link: {
         label: "",
         href: "https://github.com/arkorty/online-clipboard",
       },
     },
-
     {
       title: "PostOxideDB",
       techStack: ["Rust", "Docker", "Next.js", "React.js", "Tailwind CSS"],
@@ -113,7 +123,7 @@ export const RESUME_DATA = {
       title: "Arithmetic AST",
       techStack: ["C++", "OOP"],
       description:
-        "Simple mathematical expression evaluator using an Abstract Syntax Tree following Objected-oriented paradaigm.",
+        "Simple mathematical expression evaluator using an Abstract Syntax Tree following Objected-oriented paradigm.",
       logo: "",
       link: {
         label: "",

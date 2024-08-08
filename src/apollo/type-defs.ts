@@ -7,6 +7,10 @@ export class Social {
 
   @Field(() => String)
   url: string;
+
+  // Additional fields from the other version
+  @Field(() => String, { nullable: true })
+  platform?: string;
 }
 
 @ObjectType()
@@ -19,6 +23,10 @@ export class Contact {
 
   @Field(() => [Social])
   social: Social[];
+
+  // Additional field from the other version
+  @Field(() => String, { nullable: true })
+  address?: string;
 }
 
 @ObjectType()
@@ -34,6 +42,10 @@ export class Education {
 
   @Field(() => String)
   end: string;
+
+  // Additional field from the other version
+  @Field(() => String, { nullable: true })
+  honors?: string;
 }
 
 @ObjectType()
@@ -51,13 +63,13 @@ export class Work {
   title: string;
 
   @Field(() => String)
-  start: string;
-
-  @Field(() => String)
-  end: string;
-
-  @Field(() => String)
   description: string;
+
+  @Field(() => Date)
+  start: Date;
+
+  @Field(() => Date)
+  end: Date;
 }
 
 @ObjectType()
@@ -82,6 +94,10 @@ export class Project {
 
   @Field(() => Link, { nullable: true })
   link?: Link;
+
+  // Additional field from the other version
+  @Field(() => String, { nullable: true })
+  status?: string;
 }
 
 @ObjectType()
@@ -122,9 +138,10 @@ export class Me {
   @Field(() => [String])
   skills: string[];
 
-  @Field(() => [String])
-  languages: string[];
-
   @Field(() => [Project])
   projects: Project[];
+
+  // Additional field from the other version
+  @Field(() => String, { nullable: true })
+  linkedinProfile?: string;
 }
