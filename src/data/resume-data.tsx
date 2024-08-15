@@ -11,10 +11,10 @@ export const RESUME_DATA = {
   summary:
     "Experienced professional skilled in cloud infrastructure, system administration, and low-level operating systems. Proficient in C, Rust, Java, Python, and C++. Experienced in implementing cryptography in client-facing software. Strong background in Docker for efficient containerization and deployment. Committed to delivering quality solutions and eager to work in related sectors.",
   avatarUrl: "https://avatars.githubusercontent.com/u/63536980?v=4",
-  personalWebsiteUrl: "https://arkorty.xyz",
+  personalWebsiteUrl: "https://folio.arkorty.xyz",
   contact: {
     email: "arkorty@gmail.com",
-    tel: "+916289844601",
+    tel: "",
     social: [
       {
         name: "GitHub",
@@ -43,6 +43,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Shubhalakshmi Enterprises",
+      link: "",
+      badges: ["Part-time"],
+      title: "Operations Specialist",
+      logo: "",
+      start: "2019",
+      end: "Present",
+      description:
+        "Held a multi-faceted role within my family-owned government contracting firm, focusing on technical functions. Responsibilities included validating invoices and executing technology-driven operations critical to business continuity.",
+    },
+    {
       company: "Custom PC Integrator",
       link: "",
       badges: ["Self-Employed"],
@@ -51,7 +62,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "Present",
       description:
-        "Specialized in providing expert guidance and building custom PC systems tailored to clients' specific needs. Utilized comprehensive knowledge of computer hardware components to recommend optimal configurations for gaming and professional applications. Meticulously assembled mid-to-high-end gaming PCs, ensuring compatibility, performance, and reliability. Consistently exceeded client expectations through personalized consultation and attention to detail.",
+        "Provided expert consultation and assembled custom PC systems tailored to client needs. Recommended optimal hardware configurations for gaming and professional use, ensuring performance, reliability, and compatibility. Delivered high-quality results with precision and personalized service.",
     },
   ],
   skills: [
@@ -64,13 +75,71 @@ export const RESUME_DATA = {
     "Google Cloud",
     "Docker",
   ],
-  languages: ["Rust", "C", "C++", "Java", "Python", "Bash", "Golang"],
+  languages: ["JavaScript", "Go", "Rust", "C", "C++", "Java", "Python", "Bash"],
   projects: [
+    {
+      title: "Reduce",
+      techStack: [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Echo",
+        "GORM",
+        "PostgreSQL",
+        "Docker",
+      ],
+      description:
+        "A full-stack URL shortener with integrated QR code generation for quick access.",
+      logo: "",
+      link: {
+        label: "",
+        href: "https://github.com/arkorty/Reduce",
+      },
+    },
+    {
+      title: "CodeShare",
+      techStack: [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Echo",
+        "GORM",
+        "PostgreSQL",
+        "Docker",
+      ],
+      description:
+        "A full-stack web app that allows users to save and share code snippets using a simple 6-character code.",
+      logo: "",
+      link: {
+        label: "",
+        href: "https://github.com/arkorty/CodeShare",
+      },
+    },
+    {
+      title: "DownLink",
+      techStack: [
+        "React.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Echo",
+        "Docker",
+        "yt-dlp",
+        "ffmpeg",
+      ],
+      description:
+        "Full-stack web-app that lets users download videos from YouTube and Instagram.",
+      logo: "",
+      link: {
+        label: "",
+        href: "https://github.com/arkorty/DownLink",
+      },
+    },
     {
       title: "Neolite",
       techStack: ["Neovim", "Lua", "Shell", "IDE"],
-      description:
-        "Fast and lightweight configuration of Neovim as a functional IDE.",
+      description: "Fast and lightweight Neovim distro.",
       logo: "",
       link: {
         label: "",
@@ -89,30 +158,9 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Online Clipboard",
-      techStack: [
-        "Golang",
-        "Javascript",
-        "CSS",
-        "HTML",
-        "PostgreSQL",
-        "Docker",
-        "Docker Compose",
-        "Next.js",
-        "MUI/Material",
-        "Tailwind CSS",
-      ],
-      description: "An Online Clipboard that can be used from everywhere.",
-      logo: "",
-      link: {
-        label: "",
-        href: "https://github.com/arkorty/online-clipboard",
-      },
-    },
-    {
       title: "PostOxideDB",
       techStack: ["Rust", "Docker", "Next.js", "React.js", "Tailwind CSS"],
-      description: "Simple yet performant database management solution.",
+      description: "Full-stack GUI based database management system.",
       logo: "",
       link: {
         label: "",
@@ -123,7 +171,7 @@ export const RESUME_DATA = {
       title: "Arithmetic AST",
       techStack: ["C++", "OOP"],
       description:
-        "Simple mathematical expression evaluator using an Abstract Syntax Tree following Objected-oriented paradigm.",
+        "A simple mathematical expression evaluator using an Abstract Syntax Tree; follows the Objected-oriented paradaigm.",
       logo: "",
       link: {
         label: "",
@@ -131,13 +179,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Home Directory",
-      techStack: ["Next.js", "React.js", "Tailwind CSS"],
-      description: "Personalized website made using Next.js.",
+      title: "folio",
+      techStack: ["Next.js", "React.js", "Tailwind CSS", "Vercel"],
+      description: "Portfolio website made using Next.js.",
       logo: "",
       link: {
         label: "",
-        href: "https://github.com/arkorty/home-directory",
+        href: "https://github.com/arkorty/folio",
       },
     },
     {
@@ -148,36 +196,6 @@ export const RESUME_DATA = {
       link: {
         label: "",
         href: "https://github.com/arkorty/donut.c",
-      },
-    },
-    {
-      title: "maze.c",
-      techStack: ["C"],
-      description: "ASCII maze game written in C.",
-      logo: "",
-      link: {
-        label: "",
-        href: "https://github.com/arkorty/maze.c",
-      },
-    },
-    {
-      title: "maze.cxx",
-      techStack: ["C++"],
-      description: "ASCII maze game written in C++.",
-      logo: "",
-      link: {
-        label: "",
-        href: "https://github.com/arkorty/maze.cxx",
-      },
-    },
-    {
-      title: "GoHTTPServer",
-      techStack: ["Go"],
-      description: "Simple Web Server written in Golang.",
-      logo: "",
-      link: {
-        label: "",
-        href: "https://github.com/arkorty/GoHTTPServer",
       },
     },
   ],
