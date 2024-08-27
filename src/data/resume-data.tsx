@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   summary:
     "Experienced professional skilled in cloud infrastructure, system administration, and low-level operating systems. Proficient in C, Rust, Java, Python, and C++. Experienced in implementing cryptography in client-facing software. Strong background in Docker for efficient containerization and deployment. Committed to delivering quality solutions and eager to work in related sectors.",
   avatarUrl: "https://avatars.githubusercontent.com/u/63536980?v=4",
-  personalWebsiteUrl: "https://folio.arkorty.xyz",
+  personalWebsiteUrl: "https://f.webark.in",
   contact: {
     email: "arkorty@gmail.com",
     tel: "",
